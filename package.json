@@ -1,0 +1,22 @@
+{
+  "name": "ml-tst",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "debug": "node debug server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "request": "^2.87.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.4"
+  }
+}
